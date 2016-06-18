@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0da480c2-0f40-4f6c-95c9-d9ae3cc56b9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>greedy1.py</StartupFile>
+    <StartupFile>greedy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,7 +13,7 @@
     <Name>Algorithms2</Name>
     <RootNamespace>Algorithms2</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>input\jobs.txt input\test-cases\1-1.txt input\test-cases\1-2.txt</CommandLineArguments>
+    <CommandLineArguments>input\jobs.txt</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <IsWindowsApplication>False</IsWindowsApplication>
     <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
@@ -32,7 +32,7 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="greedy1.py">
+    <Compile Include="greedy.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -47,8 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="input\jobs.txt" />
-    <Content Include="input\test-cases\1-2.txt" />
-    <Content Include="input\test-cases\1-1.txt" />
+    <Content Include="input\test-cases\greedy-3.txt" />
+    <Content Include="input\test-cases\greedy-2.txt" />
+    <Content Include="input\test-cases\greedy-1.txt" />
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
