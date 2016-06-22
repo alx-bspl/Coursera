@@ -1,0 +1,7 @@
+digraph G {
+	
+	a -> b -> d [label = "2"];
+	a -> c -> d [label = "2"];
+	d -> a [label = "3"];
+	
+}

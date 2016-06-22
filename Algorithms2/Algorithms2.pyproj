@@ -41,6 +41,7 @@
     <Folder Include="input\tests\" />
     <Folder Include="lib\" />
     <Folder Include="input\" />
+    <Folder Include="notes\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
@@ -55,6 +56,7 @@
     <Content Include="input\tests\greedy-3.txt" />
     <Content Include="input\tests\greedy-2.txt" />
     <Content Include="input\tests\greedy-1.txt" />
+    <None Include="notes\Counterexample for Kruskals algorithm on digraph.gv" />
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
