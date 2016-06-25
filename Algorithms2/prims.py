@@ -43,4 +43,4 @@ with open(argv[1], 'r') as lines:
         node2.edges.append(Edge(node2, node1, cost))
 
 cost = calc_prims_mst_cost(graph)
-print cost
+print (cost)
