@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0da480c2-0f40-4f6c-95c9-d9ae3cc56b9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>clustering_big.py</StartupFile>
+    <StartupFile>knapsack.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,7 +13,7 @@
     <Name>Algorithms2</Name>
     <RootNamespace>Algorithms2</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>input\clustering_big.txt</CommandLineArguments>
+    <CommandLineArguments>input\knapsack_big.txt input\knapsack1.txt  input\tests\knapsack-1.txt </CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <IsWindowsApplication>False</IsWindowsApplication>
     <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
@@ -32,6 +32,7 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="knapsack.py" />
     <Compile Include="clustering_big.py" />
     <Compile Include="clustering.py" />
     <Compile Include="prims.py" />
@@ -58,12 +59,17 @@
     <Content Include="input\edges.txt" />
     <Content Include="input\jobs.txt" />
     <Content Include="input\clustering1.txt" />
+    <Content Include="input\knapsack1.txt" />
+    <Content Include="input\knapsack_big.txt" />
     <Content Include="input\tests\clustering-1.txt" />
     <Content Include="input\tests\clustering-3.txt" />
     <Content Include="input\tests\clustering-2.txt" />
     <Content Include="input\tests\clustering_big-1.txt" />
     <Content Include="input\tests\clustering_big-2.txt" />
     <Content Include="input\tests\clustering_big-3.txt" />
+    <Content Include="input\tests\knapsack-2.txt" />
+    <Content Include="input\tests\knapsack-3.txt" />
+    <Content Include="input\tests\knapsack-1.txt" />
     <Content Include="input\tests\prims-3.txt" />
     <Content Include="input\tests\prims-2.txt" />
     <Content Include="input\tests\prims-1.txt" />
