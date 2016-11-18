@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.25914.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Algorithms2", "Algorithms2\Algorithms2.pyproj", "{0DA480C2-0F40-4F6C-95C9-D9AE3CC56B9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms1", "Algorithms1\Algorithms1.csproj", "{EFF1B217-9AAC-4E3E-92C9-832820A14FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms1.Tests", "Algorithms1.Tests\Algorithms1.Tests.csproj", "{7EB47C0F-DF4E-4CF8-B13E-06ADD88C18B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0DA480C2-0F40-4F6C-95C9-D9AE3CC56B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DA480C2-0F40-4F6C-95C9-D9AE3CC56B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF1B217-9AAC-4E3E-92C9-832820A14FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF1B217-9AAC-4E3E-92C9-832820A14FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF1B217-9AAC-4E3E-92C9-832820A14FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF1B217-9AAC-4E3E-92C9-832820A14FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB47C0F-DF4E-4CF8-B13E-06ADD88C18B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB47C0F-DF4E-4CF8-B13E-06ADD88C18B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB47C0F-DF4E-4CF8-B13E-06ADD88C18B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB47C0F-DF4E-4CF8-B13E-06ADD88C18B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
